@@ -4,6 +4,31 @@ A Java Swing desktop application that digitizes the hostel maintenance complaint
 
 ---
 
+## Screenshots
+
+### Login
+![Login](screenshots/login.png)
+
+### Student Dashboard
+![Student Dashboard](screenshots/student.png)
+
+### Submit Complaint
+![Submit Complaint](screenshots/complaint%20dashboard.png)
+
+### Complaint History
+![Complaint History](screenshots/complaint%20history.png)
+
+### Staff Dashboard
+![Staff Dashboard](screenshots/staff.png)
+
+### Update Complaint Status
+![Update Status](screenshots/complaint%20status.png)
+
+### Complaint Details
+![Complaint Details](screenshots/complaint%20info.png)
+
+---
+
 ## Features
 
 ### Student side
@@ -65,6 +90,7 @@ HostelComplaintPortal/
 │       ├── StaffDashboard.java          Staff portal
 │       ├── ComplaintDetailDialog.java   Read-only detail popup
 │       └── ChangePasswordDialog.java    Password update dialog
+├── screenshots/                         App screenshots
 ├── data/                                Auto-created on first run
 │   ├── users.txt                        User accounts
 │   └── complaints.txt                   Complaint records
