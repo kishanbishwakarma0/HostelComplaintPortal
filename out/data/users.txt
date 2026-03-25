@@ -1,0 +1,5 @@
+STUDENT:S001:Kishan Bishwakarma:pass123:101:Block A
+STUDENT:S002:Priya Sharma:pass123:204:Block B
+STUDENT:S003:Rahul Verma:pass123:312:Block C
+STAFF:ST001:Warden Kumar:admin123:Maintenance
+STAFF:ST002:Ms. Patel:admin123:Electrical
