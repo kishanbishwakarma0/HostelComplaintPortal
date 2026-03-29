@@ -39,18 +39,18 @@ The Java Swing application for hostel management digitizes the complaint system.
 5. Change password securely from within the app.
 
 ### Staff side
-1. View all complaints across all students
-2. Filter by status (Pending / In Progress / Resolved) combined with live search
-3. Update complaint status with an optional remark
-4. Double-click or use "View Details" for full complaint info
-5. Sidebar overview counters auto-refresh on every update
-6. Change password securely
+1. View all the complaints for all the students.
+2. View the complaints based on their status like pending, in progress, resolved, and live search.
+3. Update the status of the complaints with an optional remark.
+4. Double click or click 'View Details' to view the complaints in detail.
+5. The overview in the sidebar auto refreshes every time the page is updated.
+6. Change password
 
 ### General
-1. Role-based login — students and staff see entirely different views
-2. All data persists across sessions in plain-text files in `data/`
-3. Auto-seeded default users on first run — no setup required
-4. No external libraries — pure Java SE and Swing
+1. Role-based login, so students see a completely different screen than staff members
+2. All data is persisted across sessions in plain text files in the directory `data/`
+3. Auto-seeding of default user accounts on first run, no setup necessary
+4. No external libraries, pure Java SE and Swing
 
 ---
 
