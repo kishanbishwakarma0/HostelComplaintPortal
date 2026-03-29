@@ -122,7 +122,7 @@ STAFF:ST001:Warden Kumar:admin123:Maintenance
 CMP001|S001|Kishan Bishwakarma|101|Block A|Plumbing|Tap is leaking|PENDING|2025-03-25 10:30|2025-03-25 10:30|
 ```
 
-Both files are plain text. Delete them to reset all data — defaults are re-created on next run.
+The wording in both files is simple. Delete all of the data to reset it, defaults are restored in the next run.
 
 ---
 
