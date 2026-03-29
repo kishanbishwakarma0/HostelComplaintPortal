@@ -54,20 +54,20 @@ The Java Swing application for hostel management digitizes the complaint system.
 
 ---
 
-## Java Concepts Demonstrated
+## Java Concepts Used
 
-| Concept | Where Applied |
+| Concept | Implementation |
 |---|---|
-| Abstract class | `User` base class for `Student` and `Staff` |
-| Inheritance | `Student extends User`, `Staff extends User` |
-| Polymorphism | `getDashboardTitle()` and `toString()` overridden in both subclasses |
-| Enum | `ComplaintStatus` (PENDING, IN_PROGRESS, RESOLVED) |
-| Collections | `List<Complaint>`, `List<User>`, `Map<ComplaintStatus, Long>` |
-| Streams and lambdas | Filtering, searching, and counting complaints |
-| File I/O | `BufferedReader` and `PrintWriter` for persistent text file storage |
-| Serializable | `User` and `Complaint` implement `Serializable` |
-| GUI (Swing) | Login screen, dual dashboards, dialogs, tables, custom renderers |
-| Event handling | `ActionListener`, `DocumentListener`, `MouseAdapter` |
+| Abstract Class | Base `User` class defines common behavior for `Student` and `Staff` |
+| Inheritance | `Student` and `Staff` extend `User` to reuse shared properties and methods |
+| Polymorphism | Methods like `getDashboardTitle()` and `toString()` are overridden for role-specific behavior |
+| Enum | `ComplaintStatus` (`PENDING`, `IN_PROGRESS`, `RESOLVED`) ensures clear and type-safe status handling |
+| Collections | `List` and `Map` are used to store and manage users and complaints efficiently |
+| Streams & Lambdas | Used for filtering, searching, and counting complaints in a concise way |
+| File I/O | `BufferedReader` and `PrintWriter` handle data storage and retrieval |
+| Serialization | `User` and `Complaint` implement `Serializable` for object persistence |
+| GUI (Swing) | Provides login screens, dashboards, dialogs, and tables for user interaction |
+| Event Handling | Uses `ActionListener`, `DocumentListener`, and `MouseAdapter` to handle user actions |
 
 ---
 ## How to Run
