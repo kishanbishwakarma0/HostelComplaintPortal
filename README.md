@@ -31,12 +31,12 @@ The Java Swing application for hostel management digitizes the complaint system.
 
 ## Features
 
-### Student side
-1. Submit complaints with category, description, and **priority** (Normal / Urgent)
-2. Live stats in sidebar: Pending, In Progress, Resolved counts
-3. Search complaints by keyword — instant filtering as you type
-4. Double-click any row to view full complaint details
-5. Change password securely from within the app
+### Student Side
+1. You can submit your complaints along with category, description, and priority (Normal/Urgent).
+2. Live stats in sidebar: Pending, In Progress, Resolved counts.
+3. Search complaints by keyword, instant filtering as you type.
+4. Double-click any row to view your full complaint details.
+5. Change password securely from within the app.
 
 ### Staff side
 1. View all complaints across all students
