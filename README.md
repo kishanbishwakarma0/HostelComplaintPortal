@@ -58,7 +58,7 @@ The Java Swing application for hostel management digitizes the complaint system.
 
 | Concept | Where Applied |
 |---|---|
-| Abstract class | `User` — base class for `Student` and `Staff` |
+| Abstract class | `User` base class for `Student` and `Staff` |
 | Inheritance | `Student extends User`, `Staff extends User` |
 | Polymorphism | `getDashboardTitle()` and `toString()` overridden in both subclasses |
 | Enum | `ComplaintStatus` (PENDING, IN_PROGRESS, RESOLVED) |
