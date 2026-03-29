@@ -47,10 +47,10 @@ The Java Swing application for hostel management digitizes the complaint system.
 6. Change password
 
 ### General
-1. Role-based login, so students see a completely different screen than staff members
-2. All data is persisted across sessions in plain text files in the directory `data/`
-3. Auto-seeding of default user accounts on first run, no setup necessary
-4. No external libraries, pure Java SE and Swing
+1. Role-based login, so students see a completely different screen than staff members.
+2. All data is persisted across sessions in plain text files in the directory `data/`.
+3. Auto-seeding of default user accounts on first run, no setup necessary.
+4. No external libraries, pure Java SE and Swing.
 
 ---
 
@@ -128,4 +128,4 @@ Both files are plain text. Delete them to reset all data — defaults are re-cre
 
 ## Author
 
-Built by **Kishan Bishwakarma** as the BYOP capstone for the *Programming in Java* course.
+Built by **Kishan Bishwakarma**.
