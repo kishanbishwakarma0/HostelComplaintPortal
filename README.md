@@ -32,25 +32,25 @@ The Java Swing application for hostel management digitizes the complaint system.
 ## Features
 
 ### Student side
-- Submit complaints with category, description, and **priority** (Normal / Urgent)
-- Live stats in sidebar: Pending, In Progress, Resolved counts
-- Search complaints by keyword — instant filtering as you type
-- Double-click any row to view full complaint details
-- Change password securely from within the app
+1. Submit complaints with category, description, and **priority** (Normal / Urgent)
+2. Live stats in sidebar: Pending, In Progress, Resolved counts
+3. Search complaints by keyword — instant filtering as you type
+4. Double-click any row to view full complaint details
+5. Change password securely from within the app
 
 ### Staff side
-- View all complaints across all students
-- Filter by status (Pending / In Progress / Resolved) combined with live search
-- Update complaint status with an optional remark
-- Double-click or use "View Details" for full complaint info
-- Sidebar overview counters auto-refresh on every update
-- Change password securely
+1. View all complaints across all students
+2. Filter by status (Pending / In Progress / Resolved) combined with live search
+3. Update complaint status with an optional remark
+4. Double-click or use "View Details" for full complaint info
+5. Sidebar overview counters auto-refresh on every update
+6. Change password securely
 
 ### General
-- Role-based login — students and staff see entirely different views
-- All data persists across sessions in plain-text files in `data/`
-- Auto-seeded default users on first run — no setup required
-- No external libraries — pure Java SE and Swing
+1. Role-based login — students and staff see entirely different views
+2. All data persists across sessions in plain-text files in `data/`
+3. Auto-seeded default users on first run — no setup required
+4. No external libraries — pure Java SE and Swing
 
 ---
 
