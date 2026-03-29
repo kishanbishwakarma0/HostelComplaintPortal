@@ -127,5 +127,7 @@ The wording in both files is simple. Delete all of the data to reset it, default
 ---
 
 ## Author
-
-Built by **Kishan Bishwakarma**.
+STUDENT NAME: KISHAN BISHWAKARMA
+REGISTRATION NO.: 24BAI10352
+COURSE: PROGRAMMING IN JAVA
+INSTITUITION NAME: VIT BHOPAL UNIVERSITY
