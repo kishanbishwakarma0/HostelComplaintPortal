@@ -44,7 +44,7 @@ The Java Swing application for hostel management digitizes the complaint system.
 3. Update the status of the complaints with an optional remark.
 4. Double click or click 'View Details' to view the complaints in detail.
 5. The overview in the sidebar auto refreshes every time the page is updated.
-6. Change password
+6. Change password.
 
 ### General
 1. Role-based login, so students see a completely different screen than staff members.
