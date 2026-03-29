@@ -1,6 +1,6 @@
 # Hostel Room Complaint Portal
 
-Java Swing application for the digitalization of the hostel complaint system based on hostel management. The students can enter their complaints during their stay in the rooms, and the management of the hostel can manage their complaints according to their needs.
+The Java Swing application for hostel management digitizes the complaint system. While staying in the rooms, students can file complaints. The hostel management handles these complaints based on their needs.
 
 ---
 
