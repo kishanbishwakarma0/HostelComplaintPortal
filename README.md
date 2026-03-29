@@ -90,7 +90,7 @@ cd out
 java Main
 ```
 
-### IDE (IntelliJ / Eclipse / VS Code)
+### IDE (VS Code)
 1. Open the `HostelComplaintPortal/` folder as a project
 2. Mark `src/` as the Sources Root
 3. Run `Main.java`
