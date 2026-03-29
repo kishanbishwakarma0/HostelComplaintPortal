@@ -58,17 +58,16 @@ The Java Swing application for hostel management digitizes the complaint system.
 
 | Concept | Implementation |
 |---|---|
-| Abstract Class | Base `User` class defines common behavior for `Student` and `Staff` |
-| Inheritance | `Student` and `Staff` extend `User` to reuse shared properties and methods |
-| Polymorphism | Methods like `getDashboardTitle()` and `toString()` are overridden for role-specific behavior |
-| Enum | `ComplaintStatus` (`PENDING`, `IN_PROGRESS`, `RESOLVED`) ensures clear and type-safe status handling |
-| Collections | `List` and `Map` are used to store and manage users and complaints efficiently |
-| Streams & Lambdas | Used for filtering, searching, and counting complaints in a concise way |
-| File I/O | `BufferedReader` and `PrintWriter` handle data storage and retrieval |
-| Serialization | `User` and `Complaint` implement `Serializable` for object persistence |
-| GUI (Swing) | Provides login screens, dashboards, dialogs, and tables for user interaction |
-| Event Handling | Uses `ActionListener`, `DocumentListener`, and `MouseAdapter` to handle user actions |
-
+| Abstract Class | Created a base `User` class which is used by both `Student` and `Staff` |
+| Inheritance | `Student` and `Staff` extend `User` so common things don’t need to be written again |
+| Polymorphism | Methods like `getDashboardTitle()` and `toString()` work differently for student and staff |
+| Enum | `ComplaintStatus` (`PENDING`, `IN_PROGRESS`, `RESOLVED`) is used to manage complaint status easily |
+| Collections | `List` and `Map` are used to store users and complaints |
+| Streams & Lambdas | Used to filter, search, and count complaints in a simple way |
+| File I/O | `BufferedReader` and `PrintWriter` are used to save and read data from files |
+| Serialization | `User` and `Complaint` are saved and loaded using `Serializable` |
+| GUI (Swing) | Built screens like login, dashboards, dialogs, and tables |
+| Event Handling | Used `ActionListener`, `DocumentListener`, and `MouseAdapter` for user actions |
 ---
 ## How to Run
 
