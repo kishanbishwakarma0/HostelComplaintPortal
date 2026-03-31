@@ -154,7 +154,4 @@ The wording in both files is simple. Delete all of the data to reset it, default
 ---
 
 ## Author
-**STUDENT NAME:** KISHAN BISHWAKARMA\
-**REGISTRATION NO.:** 24BAI10352\
-**COURSE:** PROGRAMMING IN JAVA (CAPSTONE ACTIVITY)\
-**INSTITUITION NAME:** VIT BHOPAL UNIVERSITY
+Built by **Kishan Bishwakarma** as the BYOP capstone for the *Programming in Java* course.
