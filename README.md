@@ -69,6 +69,34 @@ The Java Swing application for hostel management digitizes the complaint system.
 | GUI (Swing) | Built screens like login, dashboards, dialogs, and tables |
 | Event Handling | Used `ActionListener`, `DocumentListener`, and `MouseAdapter` for user actions |
 ---
+## Project Structure
+
+```
+HostelComplaintPortal/
+├── src/
+│   ├── Main.java                        Entry point and login screen
+│   ├── model/
+│   │   ├── User.java                    Abstract base class
+│   │   ├── Student.java                 Extends User; holds room and block
+│   │   ├── Staff.java                   Extends User; holds department
+│   │   ├── Complaint.java               Complaint model with file encode/decode
+│   │   └── ComplaintStatus.java         Enum: PENDING, IN_PROGRESS, RESOLVED
+│   ├── manager/
+│   │   └── ComplaintManager.java        Data layer: file I/O, login, search
+│   └── ui/
+│       ├── StudentDashboard.java        Student portal
+│       ├── StaffDashboard.java          Staff portal
+│       ├── ComplaintDetailDialog.java   Read-only detail popup
+│       └── ChangePasswordDialog.java    Password update dialog
+├── data/                                Auto-created on first run
+│   ├── users.txt                        User accounts
+│   └── complaints.txt                   Complaint records
+├── run.sh                               Build and run script (Linux/Mac)
+└── README.md
+```
+
+---
+
 ## How to Run
 
 ### Requirements
